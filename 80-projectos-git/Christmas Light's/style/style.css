@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #010013;
+}
+
+ul#luzes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li {
+    padding: 0px;
+    background: rgb(82, 81, 81);
+    color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+}
+button#start{
+    background: none;
+    color: rgba(100, 148, 237, 0.747);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    margin-top: 200px;
+    width: 110px;
+    height: 45px;
+    border-radius: 14px;
+    border: solid 2px rgba(100, 148, 237, 0.747);
+}
+button#start:hover{
+    background-color: rgb(100, 148, 237);
+    color: #010013;
+    transition: all 1s;
+}
+p{
+    color: rgb(218, 218, 218);
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    width: max-content;
+}
+p>input[type='number']{
+    background: none;
+    border: none;
+    border-bottom: solid 1px rgb(2, 84, 236);
+    margin-left: 10px;
+    width: 50px;
+    color:rgb(181, 207, 255);
+    text-align: right;
+}
