@@ -21,7 +21,7 @@ for (c in nEnderecos){
     listaPessoas[c]['aniversario'] = new Date(nAniversarios[c]).toDateString()
     var elemento = document.createElement('li')
     elemento.className = c
-    elemento.addEventListener('mouseover', setarDados)
+    elemento.addEventListener('click', setarDados)
     elemento.innerText = listaPessoas[c]['nome']
     lista.appendChild(elemento)
 }
